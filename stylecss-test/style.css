@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*,
+*:before,
+*:after {
+    boz-sizing: border-box;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #333;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
